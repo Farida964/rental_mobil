@@ -8,4 +8,16 @@ use Illuminate\Database\Eloquent\Model;
 class Pembayaran extends Model
 {
     use HasFactory;
+
+    protected $table = 'pembayaran';
+
+    protected $fillable = [
+        'id',
+        'tanggal',
+        'jumlah_bayar',
+        'peminjaman_id',
+      
+    ];
+    
+    public $timestamps = false;
 }

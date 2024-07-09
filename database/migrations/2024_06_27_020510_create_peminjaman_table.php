@@ -25,8 +25,6 @@ return new class extends Migration
             $table->string('status_pinjam');
             $table->unsignedBigInteger('armada_id');
             $table->timestamps();
-
-          
         });
     }
 
