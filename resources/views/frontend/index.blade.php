@@ -52,7 +52,7 @@
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="#about">Get Started</a>
+      <a class="btn-getstarted" href="{{ url('/admin/peminjaman/create/form') }}">Get Started</a>
 
     </div>
   </header>
@@ -68,7 +68,7 @@
             <h1>Welcome to CherryWheels</h1>
             <p>Kenyamanan dan Keceriaan di Setiap Rodanya</p>
             <div class="d-flex">
-              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="{{ url('/admin/peminjaman/create/form') }}" class="btn-get-started">Get Started</a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mobil-depan.png" data-aos="zoom-out" data-aos-delay="200">

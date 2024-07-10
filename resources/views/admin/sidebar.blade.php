@@ -86,7 +86,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ url('/admin/peminjaman') }}" class="nav-link" style="color: black; font-family: 'Times New Roman';">
+                    <a href="{{ url('/frontend') }}" class="nav-link" style="color: black; font-family: 'Times New Roman';">
                         <i class="nav-icon fas fa-tachometer-alt" style="color: black;"></i>
                         <p>
                             Logout

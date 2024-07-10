@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\Auth\AuthenticatedSessionController;
 use App\Http\Controllers\AuthenticalSessionController;
 use App\Http\Controllers\ArmadaController;
 use App\Http\Controllers\FrontendController;
@@ -39,8 +40,16 @@ Route::middleware('auth')->group(function () {
 require __DIR__.'/auth.php';
 
 
+Route::get('/login', [AuthenticatedSessionController::class, 'create'])
+    ->name('login');
+
+
+    Route::middleware('auth')->group(function () {
+        Route::get('/admin', [AdminController::class, 'index'])->name('admin.index');
+    });
 
 Route::get('/frontend', [AdminController::class, 'frontend'])->name('frontend');
+
 
 Route::get('/armada', function () {
     return view('armada');
@@ -75,6 +84,7 @@ Route::delete('/admin/armada/{armada}', [ArmadaController::class, 'destroy'])->n
 Route::get('/admin/peminjaman', [PeminjamanController::class, 'index']);
 Route::get('/admin/peminjaman', [PeminjamanController::class, 'index'])->name('peminjamans.index');
 Route::get('/admin/peminjaman/create', [PeminjamanController::class, 'create'])->name('peminjamans.create');
+Route::get('/admin/peminjaman/create/form', [PeminjamanController::class, 'createform'])->name('peminjamans.createform');
 Route::post('/admin/peminjaman/store', [PeminjamanController::class, 'store'])->name('peminjamans.store');
 Route::get('/admin/peminjaman/{peminjaman}', [PeminjamanController::class, 'show'])->name('peminjamans.show');
 Route::get('/admin/peminjaman/{peminjaman}/edit', [PeminjamanController::class, 'edit'])->name('peminjamans.edit');

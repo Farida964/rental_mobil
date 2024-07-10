@@ -28,6 +28,11 @@ class PeminjamanController extends Controller
         return view('peminjaman.create');
     }
 
+    public function createform()
+    {
+        return view('peminjaman.createform');
+    }
+
     /**
      * Store a newly created resource in storage.
      *

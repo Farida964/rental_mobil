@@ -11,5 +11,15 @@ class AdminController extends Controller
     {
         return view('admin.index');
     }
+
+    public function frontend()
+    {
+        return view('frontend.index');
+    }
+
+    public function login()
+    {
+        return view('login');
+    }
 }
 
