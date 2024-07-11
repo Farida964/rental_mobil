@@ -42,17 +42,16 @@
 
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="#hero" class="active">Home</a></li>
-          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#hero" class="active">Beranda</a></li>
+          <li><a href="#about">tentangn Kami</a></li>
           <li><a href="#services">Armada</a></li>
           <li><a href="#portfolio">Jenis Kendaraan</a></li>
           <li><a href="#team">Tim</a></li>
-          <li><a href="#contact">Kontak</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-      <a class="btn-getstarted" href="{{ url('/admin/peminjaman/create/form') }}">Get Started</a>
+      <a class="btn-getstarted" href="{{ url('/admin/peminjaman/create/form') }}">Mulai</a>
 
     </div>
   </header>
@@ -68,7 +67,7 @@
             <h1>Welcome to CherryWheels</h1>
             <p>Kenyamanan dan Keceriaan di Setiap Rodanya</p>
             <div class="d-flex">
-              <a href="{{ url('/admin/peminjaman/create/form') }}" class="btn-get-started">Get Started</a>
+              <a href="{{ url('/admin/peminjaman/create/form') }}" class="btn-get-started">Mulai</a>
             </div>
           </div>
           <div class="col-lg-6 order-1 order-lg-2 mobil-depan.png" data-aos="zoom-out" data-aos-delay="200">
@@ -143,7 +142,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>About Us</h2>
+        <h2>Tentang Kami</h2>
       </div><!-- End Section Title -->
 
       <div class="container">
@@ -163,7 +162,7 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <p>CherryWheels berkomitmen untuk memberikan pengalaman penyewaan mobil yang menyenangkan, bebas stres, dan penuh gaya. Setiap perjalanan adalah kesempatan untuk menciptakan kenangan indah, dan kami ada di sini untuk memastikan Anda melakukannya dengan penuh keceriaan dan kenyamanan. </p>
-            <a href="#" class="read-more"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
+            <a href="#" class="read-more"><span>Selengkapnya</span><i class="bi bi-arrow-right"></i></a>
           </div>
 
         </div>
@@ -250,7 +249,7 @@
                     <!-- Product actions-->
                     <div class="card-footer border-top-0 bg-transparent">
                       <div class="text-center">
-                        <a class="btn btn-primary mt-auto" href="#">Sewa</a>
+                        <a class="btn btn-primary mt-auto" href="{{ url('/admin/peminjaman/create/form') }}">Sewa</a>
                         <a
                           class="btn btn-info mt-auto text-white"
                           href="./detail.html"
@@ -309,7 +308,7 @@
                     <!-- Product actions-->
                     <div class="card-footer border-top-0 bg-transparent">
                       <div class="text-center">
-                        <a class="btn btn-primary mt-auto" href="#">Sewa</a>
+                        <a class="btn btn-primary mt-auto" href="{{ url('/admin/peminjaman/create/form') }}">Sewa</a>
                         <a
                           class="btn btn-info mt-auto text-white"
                           href="./detail.html"
@@ -368,7 +367,7 @@
                     <!-- Product actions-->
                     <div class="card-footer border-top-0 bg-transparent">
                       <div class="text-center">
-                        <a class="btn btn-primary mt-auto" href="#">Sewa</a>
+                        <a class="btn btn-primary mt-auto" href="{{ url('/admin/peminjaman/create/form') }}">Sewa</a>
                         <a
                           class="btn btn-info mt-auto text-white"
                           href="./detail.html"
@@ -517,9 +516,9 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Driver1.jpeg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/nuy.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Walter White</h4>
+                <h4>Nurhayati</h4>
                 <span>Driver</span>
                 </p>Sudah menjadi Driver selama 3 tahun</p>
                 <div class="social">
@@ -534,9 +533,9 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Driver2.jpeg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/eka.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Samuel Jhonson</h4>
+                <h4>Eka Kartini</h4>
                 <span>Driver</span>
                 <p>Sudah menjadi Driver selama 5 Tahun</p>
                 <div class="social">
@@ -551,9 +550,9 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Driver3.jpeg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/putri.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>William Anderson</h4>
+                <h4>Putri Nur Febrianti</h4>
                 <span>Driver</span>
                 <p>Sudah menjadi Driver selama 4 tahun</p>
                 <div class="social">
@@ -568,9 +567,9 @@
 
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
             <div class="team-member d-flex align-items-start">
-              <div class="pic"><img src="assets/img/Driver4.jpeg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="assets/img/farida.jpg" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
+                <h4>Farida Rabbani Virdynata</h4>
                 <span>Driver</span>
                 <p>Sudah Mendriver Sejak SMA,dan sudah bekerja bersama kami 2 tahun</p>
                 <div class="social">
@@ -594,8 +593,7 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Testimonials</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Penilaian</h2>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -628,7 +626,8 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
+                  <span>Layanan sewa mobil di sini luar biasa! Proses pemesanan sangat mudah dan cepat. Staf sangat ramah dan membantu. Mobil yang kami sewa dalam kondisi 
+                    sangat baik, bersih, dan nyaman. Kami pasti akan menggunakan layanan ini lagi di masa depan. Sangat direkomendasikan!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -644,7 +643,8 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
+                  <span>Pengalaman kami dengan layanan sewa mobil ini cukup memuaskan. Harga sewa cukup terjangkau dan pilihan mobilnya beragam. Proses pengambilan dan 
+                    pengembalian mobil juga tidak memakan waktu lama. Satu-satunya kekurangan adalah ada sedikit bau rokok di dalam mobil, tetapi secara keseluruhan, layanannya bagus.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -660,7 +660,8 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
+                  <span>Pelayanan cukup baik, tetapi ada beberapa hal yang perlu diperbaiki. Mobil yang kami dapatkan mengalami sedikit masalah mesin di tengah jalan. 
+                    Untungnya, staf tanggap dan segera mengganti mobil tersebut. Meskipun ada kendala, mereka menangani situasi dengan profesional.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -676,7 +677,8 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
+                  <span>Saya sangat puas dengan layanan sewa mobil ini! Staf sangat profesional dan membantu kami memilih mobil yang tepat sesuai kebutuhan. Mobil dalam 
+                    kondisi prima dan sangat nyaman digunakan. Proses pengembalian juga sangat mudah dan tidak merepotkan. Saya akan merekomendasikan layanan ini kepada teman dan keluarga.</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -692,7 +694,7 @@
                 </div>
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
+                  <span>Pengalaman sewa mobil yang sangat memuaskan! Mobil yang kami sewa benar-benar baru dan dalam kondisi sempurna. Proses reservasi online sangat mudah dan staf di lokasi sangat membantu. Mereka memberikan penjelasan yang jelas tentang semua detail sewa dan asuransi. Tidak ada biaya tersembunyi dan pengembalian mobil juga cepat dan mudah. Pasti akan menggunakan layanan ini lagi di masa depan!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
               </div>
@@ -708,13 +710,7 @@
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Contact</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
-      </div><!-- End Section Title -->
-
+     
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row gy-4">
@@ -726,7 +722,7 @@
                 <i class="bi bi-geo-alt flex-shrink-0"></i>
                 <div>
                   <h3>Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>Lenteng Agung, Srengseng Sawah. kec.Jagakarsa, Kota Jakarta Selatan, 12640</p>
                 </div>
               </div><!-- End Info Item -->
 
@@ -742,11 +738,9 @@
                 <i class="bi bi-envelope flex-shrink-0"></i>
                 <div>
                   <h3>Email Us</h3>
-                  <p>info@example.com</p>
+                  <p>cherrywheels@gmail.com</p>
                 </div>
               </div><!-- End Info Item -->
-
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
 
@@ -813,10 +807,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Useful Links</h4>
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
-            <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Beranda</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Tentang Kami</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Armada</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Jenis Kendaraan</a></li>
+            <li><i class="bi bi-chevron-right"></i> <a href="#">Tim</a></li>
           </ul>
         </div>
 
